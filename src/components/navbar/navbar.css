@@ -1,0 +1,27 @@
+.navbar {
+  background-color: teal;
+  color: #eee;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* .nav-list li:nth-child(4) {
+  background-color: red;
+  padding: 10px 25px;
+} */
+.nav-link {
+  color: #eee;
+  text-decoration: none;
+}

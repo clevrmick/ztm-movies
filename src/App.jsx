@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import Navbar from "./components/navbar/Navbar";
 export default class App extends Component {
   constructor() {
     super();
@@ -7,6 +7,10 @@ export default class App extends Component {
   }
 
   render() {
-    return <div className="app">this is the app</div>;
+    return (
+      <div className="app">
+        <Navbar />
+      </div>
+    );
   }
 }
