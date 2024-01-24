@@ -1,0 +1,11 @@
+.btn-small {
+  background: red;
+  padding: 5px 15px;
+  color: white;
+}
+
+.btn-medium {
+  background-color: teal;
+  padding: 10px 25px;
+  color: white;
+}
