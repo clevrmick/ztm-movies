@@ -12,7 +12,7 @@ export default class Movies extends Component {
 
   render() {
     return (
-      <main className="movies-list" style={{ display: "flex" }}>
+      <main className="movie-list">
         {movies.map((item) => {
           return <Movie key={item.imdbID} item={item} />;
         })}
